@@ -1,7 +1,9 @@
 import pandas as pd
 import streamlit as st
+st.image("logo.jpg")
 
-st.set_page_config(page_title="Tính Lãi Tiết Kiệm", page_icon="💰", layout="centered")
+st.set_page_config(page_title="APP CÔNG CỤ TÍNH LÃI GỬI TIẾT KIỆM_NGUYỄN THỊ THÚY VY
+, page_icon="💰", layout="centered")
 
 st.title("💰 Công Cụ Tính Lãi Gửi Tiết Kiệm")
 st.write("Nhập thông tin khoản gửi bên dưới để tính toán tiền lãi chi tiết.")
